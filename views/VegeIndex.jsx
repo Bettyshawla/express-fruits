@@ -1,3 +1,5 @@
+
+
 const React = require("react")
 
 class VegeIndex extends React.Component {
@@ -6,6 +8,7 @@ class VegeIndex extends React.Component {
     return (
       <div>
         <h1>Vege Index Page</h1>
+        <a href="/vegetables/new">Create Vegetable</a>
         <ul>
           {
             vegetables.map((vegetables, i) => {
